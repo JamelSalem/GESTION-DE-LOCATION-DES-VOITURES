@@ -7,6 +7,6 @@ using System.Threading.Tasks;
 namespace GESTION_DE_LOCATION_DES_VOITURES
 {
     class Class1
-    {//
+    {// THIS IS A COMMENT
     }
 }
