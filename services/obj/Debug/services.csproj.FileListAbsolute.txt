@@ -1,0 +1,15 @@
+C:\Users\DJO\Source\Repos\JamelSalem\GESTION-DE-LOCATION-DES-VOITURES\services\bin\Debug\services.dll.config
+C:\Users\DJO\Source\Repos\JamelSalem\GESTION-DE-LOCATION-DES-VOITURES\services\bin\Debug\services.dll
+C:\Users\DJO\Source\Repos\JamelSalem\GESTION-DE-LOCATION-DES-VOITURES\services\bin\Debug\services.pdb
+C:\Users\DJO\Source\Repos\JamelSalem\GESTION-DE-LOCATION-DES-VOITURES\services\bin\Debug\Entities.dll
+C:\Users\DJO\Source\Repos\JamelSalem\GESTION-DE-LOCATION-DES-VOITURES\services\bin\Debug\EntityFramework.dll
+C:\Users\DJO\Source\Repos\JamelSalem\GESTION-DE-LOCATION-DES-VOITURES\services\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DJO\Source\Repos\JamelSalem\GESTION-DE-LOCATION-DES-VOITURES\services\bin\Debug\Entities.pdb
+C:\Users\DJO\Source\Repos\JamelSalem\GESTION-DE-LOCATION-DES-VOITURES\services\bin\Debug\Entities.dll.config
+C:\Users\DJO\Source\Repos\JamelSalem\GESTION-DE-LOCATION-DES-VOITURES\services\bin\Debug\EntityFramework.xml
+C:\Users\DJO\Source\Repos\JamelSalem\GESTION-DE-LOCATION-DES-VOITURES\services\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DJO\Source\Repos\JamelSalem\GESTION-DE-LOCATION-DES-VOITURES\services\obj\Debug\services.csprojAssemblyReference.cache
+C:\Users\DJO\Source\Repos\JamelSalem\GESTION-DE-LOCATION-DES-VOITURES\services\obj\Debug\services.csproj.CoreCompileInputs.cache
+C:\Users\DJO\Source\Repos\JamelSalem\GESTION-DE-LOCATION-DES-VOITURES\services\obj\Debug\services.csproj.CopyComplete
+C:\Users\DJO\Source\Repos\JamelSalem\GESTION-DE-LOCATION-DES-VOITURES\services\obj\Debug\services.dll
+C:\Users\DJO\Source\Repos\JamelSalem\GESTION-DE-LOCATION-DES-VOITURES\services\obj\Debug\services.pdb
