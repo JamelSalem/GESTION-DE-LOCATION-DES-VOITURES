@@ -222,5 +222,13 @@ V.PrixLoc_V, V.Est_Disp);
                 Txt_Immat.Focus();
             }
         }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            FMenuGenerale f1 = new FMenuGenerale();
+            f1.Show();
+            this.Hide();
+
+        }
     }
 }

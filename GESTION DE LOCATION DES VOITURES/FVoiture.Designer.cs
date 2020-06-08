@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Txt_Prix = new MetroFramework.Controls.MetroTextBox();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.Txt_Mod = new MetroFramework.Controls.MetroTextBox();
@@ -44,11 +44,6 @@
             this.Chk_Disp = new MetroFramework.Controls.MetroCheckBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.Ajouter = new System.Windows.Forms.ToolStripButton();
-            this.Supprimer = new System.Windows.Forms.ToolStripButton();
-            this.Rechercher = new System.Windows.Forms.ToolStripButton();
-            this.pictureBox1 = new System.Windows.Forms.ToolStripButton();
-            this.pictureBox2 = new System.Windows.Forms.ToolStripButton();
             this.Dg_Voit = new MetroFramework.Controls.MetroGrid();
             this.Immat_V = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Marq_V = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -56,6 +51,12 @@
             this.Kilom_V = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PrixLoc_V = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Est_Disp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Ajouter = new System.Windows.Forms.ToolStripButton();
+            this.Supprimer = new System.Windows.Forms.ToolStripButton();
+            this.Rechercher = new System.Windows.Forms.ToolStripButton();
+            this.pictureBox1 = new System.Windows.Forms.ToolStripButton();
+            this.pictureBox2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dg_Voit)).BeginInit();
             this.SuspendLayout();
@@ -275,11 +276,12 @@
             this.Supprimer,
             this.Rechercher,
             this.pictureBox1,
-            this.pictureBox2});
-            this.toolStrip1.Location = new System.Drawing.Point(350, 150);
+            this.pictureBox2,
+            this.toolStripButton2});
+            this.toolStrip1.Location = new System.Drawing.Point(317, 148);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.toolStrip1.Size = new System.Drawing.Size(253, 47);
+            this.toolStrip1.Size = new System.Drawing.Size(330, 47);
             this.toolStrip1.TabIndex = 3;
             this.toolStrip1.Text = "toolStrip1";
             this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_ItemClicked);
@@ -291,6 +293,88 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(23, 44);
             this.toolStripButton1.Text = "toolStripButton1";
+            // 
+            // Dg_Voit
+            // 
+            this.Dg_Voit.AllowUserToResizeRows = false;
+            this.Dg_Voit.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.Dg_Voit.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.Dg_Voit.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Dg_Voit.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.Dg_Voit.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dg_Voit.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.Dg_Voit.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Dg_Voit.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Immat_V,
+            this.Marq_V,
+            this.Mod_V,
+            this.Kilom_V,
+            this.PrixLoc_V,
+            this.Est_Disp});
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Dg_Voit.DefaultCellStyle = dataGridViewCellStyle2;
+            this.Dg_Voit.EnableHeadersVisualStyles = false;
+            this.Dg_Voit.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.Dg_Voit.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.Dg_Voit.Location = new System.Drawing.Point(23, 194);
+            this.Dg_Voit.Name = "Dg_Voit";
+            this.Dg_Voit.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dg_Voit.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.Dg_Voit.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.Dg_Voit.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.Dg_Voit.Size = new System.Drawing.Size(589, 201);
+            this.Dg_Voit.TabIndex = 4;
+            this.Dg_Voit.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dg_Voit_CellContentClick);
+            // 
+            // Immat_V
+            // 
+            this.Immat_V.HeaderText = "Immatriculation";
+            this.Immat_V.Name = "Immat_V";
+            // 
+            // Marq_V
+            // 
+            this.Marq_V.HeaderText = "Marque";
+            this.Marq_V.Name = "Marq_V";
+            // 
+            // Mod_V
+            // 
+            this.Mod_V.HeaderText = "Modele";
+            this.Mod_V.Name = "Mod_V";
+            // 
+            // Kilom_V
+            // 
+            this.Kilom_V.HeaderText = "Kilometrage";
+            this.Kilom_V.Name = "Kilom_V";
+            // 
+            // PrixLoc_V
+            // 
+            this.PrixLoc_V.HeaderText = "Prix de Location";
+            this.PrixLoc_V.Name = "PrixLoc_V";
+            // 
+            // Est_Disp
+            // 
+            this.Est_Disp.HeaderText = "Disponibilité";
+            this.Est_Disp.Name = "Est_Disp";
             // 
             // Ajouter
             // 
@@ -342,87 +426,15 @@
             this.pictureBox2.Text = "toolStripButton6";
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
             // 
-            // Dg_Voit
+            // toolStripButton2
             // 
-            this.Dg_Voit.AllowUserToResizeRows = false;
-            this.Dg_Voit.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.Dg_Voit.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.Dg_Voit.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Dg_Voit.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.Dg_Voit.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dg_Voit.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            this.Dg_Voit.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Dg_Voit.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Immat_V,
-            this.Marq_V,
-            this.Mod_V,
-            this.Kilom_V,
-            this.PrixLoc_V,
-            this.Est_Disp});
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Dg_Voit.DefaultCellStyle = dataGridViewCellStyle5;
-            this.Dg_Voit.EnableHeadersVisualStyles = false;
-            this.Dg_Voit.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.Dg_Voit.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.Dg_Voit.Location = new System.Drawing.Point(23, 194);
-            this.Dg_Voit.Name = "Dg_Voit";
-            this.Dg_Voit.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dg_Voit.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
-            this.Dg_Voit.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.Dg_Voit.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Dg_Voit.Size = new System.Drawing.Size(589, 201);
-            this.Dg_Voit.TabIndex = 4;
-            this.Dg_Voit.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dg_Voit_CellContentClick);
-            // 
-            // Immat_V
-            // 
-            this.Immat_V.HeaderText = "Immatriculation";
-            this.Immat_V.Name = "Immat_V";
-            // 
-            // Marq_V
-            // 
-            this.Marq_V.HeaderText = "Marque";
-            this.Marq_V.Name = "Marq_V";
-            // 
-            // Mod_V
-            // 
-            this.Mod_V.HeaderText = "Modele";
-            this.Mod_V.Name = "Mod_V";
-            // 
-            // Kilom_V
-            // 
-            this.Kilom_V.HeaderText = "Kilometrage";
-            this.Kilom_V.Name = "Kilom_V";
-            // 
-            // PrixLoc_V
-            // 
-            this.PrixLoc_V.HeaderText = "Prix de Location";
-            this.PrixLoc_V.Name = "PrixLoc_V";
-            // 
-            // Est_Disp
-            // 
-            this.Est_Disp.HeaderText = "Disponibilité";
-            this.Est_Disp.Name = "Est_Disp";
+            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton2.Image = global::GESTION_DE_LOCATION_DES_VOITURES.Properties.Resources.exit_icon;
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(44, 44);
+            this.toolStripButton2.Text = "toolStripButton2";
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // FVoiture
             // 
@@ -480,5 +492,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Kilom_V;
         private System.Windows.Forms.DataGridViewTextBoxColumn PrixLoc_V;
         private System.Windows.Forms.DataGridViewTextBoxColumn Est_Disp;
+        private System.Windows.Forms.ToolStripButton toolStripButton2;
     }
 }
