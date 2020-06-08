@@ -16,7 +16,7 @@ namespace GESTION_DE_LOCATION_DES_VOITURES
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FVoiture());
         }
     }
 }
